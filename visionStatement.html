@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang='en'>
   <head>
-    <title></title>
+    <title>EbundleMaster</title>
     <meta charset='utf-8'>
     <meta name='description' content=''>
     <meta name='keywords' content=''>
@@ -9,6 +9,13 @@
     <meta name='robots' content='all'>
     <!-- <meta http-equiv='X-UA-Compatible' content='IE=edge'> -->
     <link href='/favicon.png' rel='shortcut icon' type='image/png'>
+    
+    <style type="text/css" >
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    </style>
   </head>
   <body>
        
@@ -252,6 +259,38 @@ Cancelled concerts/performances. <br>
  <hr>
 
 <h1>Fully Dressed Use Case:</h1> 
+
+<table>
+    <tr><th>Use Case Name:</th><th>Account Sign Up</th></tr>
+    <tr><td>Use Case Id </td><td> 1 </td></tr>
+    <tr><td>Priority</td><td> 1 </td></tr>
+    <tr><td>Source</td><td><!--Text Goes in here--></td></tr>
+    <tr><td>Primary Business Actory</td><td> Customer </td></tr>
+    <tr><td>Other Participating Actors</td><td> Database Administrator</td></tr>
+    <tr><td>Description</td><td> A customer  needs to create an account to in order 
+                                to purchase tickets from the E-ticketing system.</td></tr>
+    <tr><td>Preconditions</td><td> A customer must hold a valid email address</td></tr>
+    <tr><td>Trigger</td><td><!--Text Here-->  <!--Text Here--></td></tr>
+    <tr><td>Typical Scenario</td><td>
+            <ol>
+                <li>A customer requests a sign up for the EbundleSystem.</li>
+                <li>The system prepares a form for sign up</li>
+                <li>The customer inputs their email address, a username and a 
+                    strong password (Mixed case,    characters, letters and numbers)</li>
+                <li>The system sends a confirmation email to the user's email address</li>
+                <li>The system tells the customer to check their email address to verify 
+                    their account with EbundleSystem </li>
+                <li>The customer goes to their email, clicks on the link to validate their email</li>
+                <li>The customer goes into the EbundleSystem website and requests to log in</li>
+            </ol>
+    </td></tr>
+    <tr><td>Conclusions</td><td>A customer creates an account with EbundleSystem</td></tr>
+    <tr><td>Post Conditions</td><td>A customer can only create one account with 
+                                    one email address</td></tr>
+    <tr><td>Business Rules</td><td>A customer can only create one account with 
+                                    one email address</td></tr>
+    <tr><td>Implementation Constraints</td><td><!--TextHere--></td></tr>
+</table>
 
 
 Use Case Name:   			Account Log In <br>
