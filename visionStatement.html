@@ -73,16 +73,6 @@ Use Case Number: 2 <br>
 Use Case Name: Account Log In <br>
 Description: Customer must log into their account in order to purchase ticket.<br>							
 
-Use Case Number: 1 <br>
-Use Case Name: Account Log In <br>
-Description: Customer must log into their account in order to purchase ticket.<br>
-
-
-<h2>Account Log-In </h2>
-
-Use Case Number: 2 <br>
-Use Case Name: Account Log In <br>
-Description: Customer must log into their account in order to purchase ticket.<br>
 
 <br><br>
 
@@ -185,65 +175,7 @@ Book Hotel<br>
 Description:
 A Customer can book a hotel.<br>
 
-
-
-
-<h2>Casual Use Cases:  </h2>
-
-Use Case Number:
-1<br>
-Use Case Name:
-Account Sign-Up<br>
-Success:
-Customer successfully creates their account<br>
-Alternative Scenario:<br>
-Account already exist: A customer already has an existing account with an email address<br>
-Invalid password: customer is asked to re-enter their password.<br>
-Invalid email: customer asked to enter a valid email address with username @ server . ext<br>
-
-
-=======
-        
->>>>>>> refs/remotes/AoifeNicAntSaoir/master
-<br><br>
-
-<h2>Book Transport</h2>
-Use Case Number: 8      <br>
-Use Case Name: Search for Restaurant  <br>
-Description: Customer search for available restaurant.  <br>
-
-<br><br>
-
-<h2>Search for Restaurant</h2>
-Use Case Number: 9              <br>
-Use Case Name: Search for Restaurant     <br>
-Description: Customer searches for an available restaurant.     <br>
-
- <br><br>
- 
-<h2>Book Restaurant</h2>
-Use Case Number: 10<br>
-Use Case Name: Book Restaurant <br>
-Description: Customer books a meal at the restaurant <br>
-
- <br><br>
-
-<h2>Search for Hotel Rooms</h2>
-Use Case Number: 11     <br>
-Use Case Name: Search Hotel Rooms     <br>
-Description: A customer can search for available hotel rooms within close proximity of the concert/performance venue.    <br>
- 
- <br><br>
- 
-<h2>Book Hotel</h2>
-Use Case Number: 12         <br>
-Use Case Name: Book Hotel      <br>
-Description: A Customer identifies a concert/performance tickets he/she wish to purchase.     <br>
-  
- <br><br>
  <!--End Brief Uses Cases-->  
- 
- 
  
  
  <hr>
@@ -348,10 +280,10 @@ Cancelled concerts/performances. <br>
 
  <!--Begin - Fully Dresses Use Cases-->  
  
-<h2>1. Account Sign up </h2>
+<h2>1. Account Sign-up </h2>
  <!--Use the table bellow as a template for the fully dressed use cases-->
 <table>
-    <tr><th>Use Case Name:</th><th>Account Sign Up</th></tr>
+    <tr><th>Use Case Name:</th><th>Account Sign-Up</th></tr>
     <tr><td>Use Case Id </td><td> 1 </td></tr>
     <tr><td>Priority</td><td> 1 </td></tr>
     <tr><td>Source</td><td><!--Text Goes in here--></td></tr>
@@ -373,12 +305,51 @@ Cancelled concerts/performances. <br>
                 <li>The customer goes to their email, clicks on the link to validate their email</li>
                 <li>The customer goes into the EbundleSystem website and requests to log in</li>
             </ol>
-    </td></tr>
+	</td></tr>
     <tr><td>Conclusions</td><td>A customer creates an account with EbundleSystem</td></tr>
     <tr><td>Post Conditions</td><td>A customer can only create one account with 
                                     one email address</td></tr>
     <tr><td>Business Rules</td><td>A customer can only create one account with 
                                     one email address</td></tr>
+    <tr><td>Implementation Constraints</td><td><!--TextHere--></td></tr>
+</table>
+
+
+<hr>
+
+<h1>Fully Dressed Use Case:</h1> 
+
+ <!--Begin - Fully Dresses Use Cases-->  
+ 
+<h2>2. Account Log-In </h2>
+ <!--Use the table bellow as a template for the fully dressed use cases-->
+<table>
+    <tr><th>Use Case Name:</th><th>Account Log-In</th></tr>
+    <tr><td>Use Case Id </td><td> 2 </td></tr>
+    <tr><td>Priority</td><td> 2 </td></tr>
+    <tr><td>Source</td><td><!--Text Goes in here--></td></tr>
+    <tr><td>Primary Business Actory</td><td> Customer </td></tr>
+    <tr><td>Other Participating Actors</td><td> N/A </td></tr>
+    <tr><td>Description</td><td> A customer log into their account to book or purchase ticket.</td></tr>
+    <tr><td>Preconditions</td><td> A customer must already hold a valid a account</td></tr>
+    <tr><td>Trigger</td><td><!--Text Here-->  <!--Text Here--></td></tr>
+    <tr><td>Typical Scenario</td><td>
+            <ol>
+                <li>A customer enters their email address.</li>
+                <li>A customer enters their password</li>
+                <li>The system valids the email address and password</li>
+                <li>The system confirms log in successfully</li>
+            </ol>
+    </td></tr>
+	<tr><td>Alternative Scenario</td><td>
+			<ol>
+                <li>Invalid email address: customer must re-enter email address.</li>
+                <li>Invalid password: customer must re-enter password</li>
+            </ol>
+    </td></tr>
+    <tr><td>Conclusions</td><td>A customer successfully logs into their account</td></tr>
+    <tr><td>Post Conditions</td><td>A customer can now make booking or purchase ticket</td></tr>
+    <tr><td>Business Rules</td><td>A customer must already log into their account</td></tr>
     <tr><td>Implementation Constraints</td><td><!--TextHere--></td></tr>
 </table>
 
